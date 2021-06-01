@@ -90,10 +90,10 @@
 		CD62D10226629A380053E633 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CD62D0F526629A050053E633 /* RecipeListView.swift */,
-				CD62D1112662F9620053E633 /* RecipeDetailView.swift */,
 				CDAAB9DC266440D400124488 /* RecipeTabView.swift */,
 				CD4257DB26658D32002DFACB /* RecipeFeaturedView.swift */,
+				CD62D0F526629A050053E633 /* RecipeListView.swift */,
+				CD62D1112662F9620053E633 /* RecipeDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
