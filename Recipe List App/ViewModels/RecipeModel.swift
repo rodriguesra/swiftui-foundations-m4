@@ -55,7 +55,7 @@ class RecipeModel: ObservableObject {
                 
                 if unit.suffix(2) == "ch" {
                     unit += "es"
-                    }
+                }
                 else if unit.suffix(1) == "f" {
                     unit = String(unit.dropLast())
                     unit += "ves"
@@ -66,7 +66,7 @@ class RecipeModel: ObservableObject {
             }
             
             portion += ingredient.num == nil && ingredient.denom == nil ? "" : " "
-            return portion + " " + unit
+            return portion + unit
         }
         
         return portion
